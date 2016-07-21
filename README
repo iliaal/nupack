@@ -2,12 +2,9 @@ Environment:
 	Ruby 1.9.3 or higher
 	rpsec 2.14.7 or higher
 	Linux? ;-)
-	
+
 Execution of tests:
-	Run 
+	Run
 		rspec --color --format doc
 	inside the current (nupack) directory
-
-
-	
 	

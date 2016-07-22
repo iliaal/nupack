@@ -1,5 +1,5 @@
 class Materials
-	def MaterialMarkup (material) 
+	def MaterialMarkup (material)
 		case material
 			when "pharmaceuticals"
 				return 0.075
@@ -9,6 +9,6 @@ class Materials
 				return 0.02
 			else
 				return 0
-		end	
+		end
 	end
 end

@@ -12,4 +12,8 @@ RSpec.describe MarkupCalculator, "determine the final price" do
 	it "if base price is 12,456.95 and 4 people are involved with books, final price should be 13,707.63" do
 		expect(MarkupCalculator.new.calculate(12456.95, 4, "books")).to eq(13707.63)
 	end
+
+	it "if base price is 5,678.99 and 2 people are involved with electronics, final price should be 6,225.31" do
+		expect(MarkupCalculator.new.calculate(5678.99, 2, "electronics")).to eq(6225.31)
+	end
 end

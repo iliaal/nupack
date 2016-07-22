@@ -23,4 +23,4 @@ class BaseMarkup
 
 		return price * (1 + BASE)
 	end
-end	
+end

@@ -1,4 +1,4 @@
-require "./lib/markup.rb"
+require "./lib/base_markup.rb"
 
 RSpec.describe BaseMarkup, "describe the fixed markup multiples" do
 	it "returns baseline markup of 5%" do
